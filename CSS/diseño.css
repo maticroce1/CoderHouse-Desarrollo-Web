@@ -1,0 +1,98 @@
+
+body{
+    background-image: url(../Assets/doom.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    font-style: italic;
+    color: azure;
+}
+h2{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+}
+ul{
+    position: relative;
+    list-style-type: none;
+}
+
+li{
+    margin: 0 1rem;
+}
+
+nav{
+    background-color: rgb(90, 14, 14);
+    padding: 2rem;
+}
+.Mayor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    position: absolute;
+    top: 1rem;
+    height: 40px;
+}
+.Expansion{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 100px){
+    .Expansion{
+        flex-direction: column;
+}
+    .carta{
+        flex-basis: 100%;
+    }
+}
+.carta{
+    width: 10%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: rgba(73, 10, 10, 0.63);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-area: 1fr 2fr;
+    width: 300px;
+    height: 400px;
+    flex-basis: 100px;
+}
+.carta img{
+    width: 200px;
+    height: 300px;
+}
+.footer {
+    color: black;
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+}
+.consola{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.juegos{
+    width: 10%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    background-color: rgba(73, 10, 10, 0.63);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-area: 1fr 2fr;
+    width: 300px;
+    height: 400px;
+}
+.juegos img{
+    width: 200px;
+    height: 300px;
+}
+
+    
