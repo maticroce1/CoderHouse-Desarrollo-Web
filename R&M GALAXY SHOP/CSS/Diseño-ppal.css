@@ -1,0 +1,50 @@
+body{
+    background-image: url(../Assets/Ppal/fondo.jpg);
+}
+header{
+    background-color: rgba(0, 0, 255, 0.199);
+    margin: 0rem;
+    border: 0rem;
+    padding: 1rem;
+}
+form{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.Puerta{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Llave{
+    background-color: none;
+    width: 300px;
+    height: 400px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    flex-basis: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-area: 1fr 2fr;
+}
+.Llave img{
+    width: 300px;
+    height: 300px;
+}
+@media (max-width: 100px){
+    .Puerta{
+        flex-direction: column;
+}
+    .Llave{
+        flex-basis: 100%;
+    }
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    right: 450px;
+    color: aliceblue;
+}
