@@ -9,3 +9,11 @@ h2{
     height: 500px;
 }
 }
+@mixin tamaños ($width, $height){
+  height: $height;
+  width: $width;
+}
+.carta{
+  @include tamaños(300px,400px);
+}
+  
