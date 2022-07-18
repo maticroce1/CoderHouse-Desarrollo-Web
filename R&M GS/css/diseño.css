@@ -1,0 +1,95 @@
+header{
+    margin: 0rem;
+    border: 1rem;
+    padding: 12px;
+    width: 100%;
+    min-height: 70px;
+}
+header h1{
+    font: optional;color: white;
+}
+form{
+    position: absolute;
+    right: 15px;
+    top: 45px;
+    font: optional;color: white;
+}
+h1{
+    display: flex;
+    justify-content: flex-start
+}
+main{
+    margin: 0rem;
+    border: 1rem;
+    padding: 1rem;
+  
+}
+footer{
+    margin: 0rem;
+    border: 1rem;
+    padding: 1rem;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    
+}
+.puertas{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.llave{
+    margin: 10px;
+    border: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    border: solid 3px rgba(72, 255, 0, 0.925);
+    background-color: rgba(0, 255, 64, 0.849);
+}
+.llave img{
+    width: 380px;
+    height: 350px;
+    transform: skew(360deg);    
+    transition: width 2s;
+}
+.llave img:hover{
+    width: 450px;
+    height: 400px;
+ 
+}
+.llave h2{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(../imagenes/fondos-especiales/fondo.jpg);
+}
+
+.portal{
+    display: flex;
+    align-items: center;
+}
+.portal img{
+    height: 60px;
+    margin-right: 10px;
+}
+p{
+    font-size: large;
+    font: optional;color: white;
+}
+h3{
+    position: absolute;
+    bottom: -200px;
+    font: optional;color: white;
+}
+@media (min-width:700px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

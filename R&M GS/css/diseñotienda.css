@@ -1,0 +1,78 @@
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    min-height: 70px;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+}
+
+.carro{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.producto{
+    margin: 10px;
+    border: 1rem;
+    padding: 1rem;
+    border: solid 3px black;
+    background-color: aqua;
+}
+.producto img{
+    width: 240px;
+    height: 320px;
+    
+}
+.producto h2{
+    display: flex;
+    justify-content: center;
+}
+.door{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right:  110px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+body{
+    background-image: url(../imagenes/fondos-especiales/background.jpg);
+}
+.carro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.producto{
+    border-radius: 35px;
+    display: grid;
+
+
+}
+.producto p{
+    text-align: center;
+}

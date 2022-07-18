@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-image: url(../imagenes/fondos-especiales/fondo\ 4.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    min-height: 70px;
+    width: 100%;
+    align-items: center;
+    padding: 12px;
+}
+.door{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right:  110px;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+main{
+    display: flex;
+    align-items: center;
+}
+h1{
+    align-items: center;
+}
