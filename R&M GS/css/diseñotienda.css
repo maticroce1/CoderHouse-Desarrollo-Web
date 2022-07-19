@@ -5,7 +5,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgba(51, 255, 0, 0.753);
     min-height: 70px;
     width: 100%;
     align-items: center;
@@ -17,20 +17,30 @@ header{
     flex-wrap: nowrap;
 }
 .producto{
-    margin: 10px;
+    display: flex;
+    width: 30%;
+    margin: 15px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     border: 1rem;
-    padding: 1rem;
+    padding: 20px;
     border: solid 3px black;
     background-color: aqua;
 }
 .producto img{
     width: 240px;
     height: 320px;
+    margin: 0px auto;
     
 }
 .producto h2{
     display: flex;
     justify-content: center;
+    margin: 0px auto;
+}
+.producto p{
+    display: inline-block;
+    vertical-align: bottom;
 }
 .door{
     display: flex;
@@ -52,14 +62,35 @@ nav a{
 }
 @media (max-width:700px){
     header{
+        display: flex;
         flex-direction: column;
     }
     nav{
         padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav img{
+        display: flex;
+        flex-direction: row;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
     }
 }
 body{
     background-image: url(../imagenes/fondos-especiales/background.jpg);
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 600;
+}
+nav a:hover{
+    color: rgb(245, 12, 233);
 }
 .carro{
     display: flex;
@@ -70,9 +101,27 @@ body{
 .producto{
     border-radius: 35px;
     display: grid;
-
-
+    background-color: rgba(107, 26, 182, 0.651);
 }
 .producto p{
     text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.producto h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+.producto:hover{
+    color: white;
+    border: white
+}
+footer{
+    margin: 0rem;
+    border: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font: optional;color: white;
+    
 }

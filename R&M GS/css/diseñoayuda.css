@@ -5,11 +5,21 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgba(51, 255, 0, 0.753);
     min-height: 70px;
     width: 100%;
     align-items: center;
     padding: 12px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: 600;
+}
+nav a:hover{
+    color: rgb(245, 12, 233);
 }
 .door{
     display: flex;
@@ -35,6 +45,10 @@ nav a{
     }
     nav{
         padding: 10px 0px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
     }
 }
 main{
